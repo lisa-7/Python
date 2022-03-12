@@ -1,3 +1,4 @@
+"""
 # experiment no 6 List
 L = [1, 2, 3]
 print(L)                                                                #[1, 2, 3]
@@ -33,6 +34,7 @@ print("sum of list elements =",sum(L))                                  #sum of 
 
 #sort program
 #sort acending
+
 L2 = [39,5,72,15,33,65,9,11,100]
 L2.sort()
 print(L2)                                                               #[5, 9, 11, 15, 33, 39, 65, 72, 100]
@@ -44,17 +46,22 @@ print(L2)                                                               #[100, 7
 #counting elements in list
 print("L List count of 6=", L.count(6))                                 #L List count of 6= 1
 print("L2 List count of 3=", L2.count(3))                               #L2 List count of 3= 0
-
+"""
 #pop
 #pop works from idex number
 L3 = [1,2,3,4,5,6,7,8,9]
 print(L3)                                                               #[1, 2, 3, 4, 5, 6, 7, 8, 9]
-print("pop() element =", L3.pop())                                      #pop() element = 9
+L3.pop()
+print(" element =", end=" ")                                            #pop() element = 9
 print(L3)                                                               #[1, 2, 3, 4, 5, 6, 7, 8]
+
 print("pop(1) element =", L3.pop(1))                                    #pop(1) element = 2
 print(L3)                                                               #[1, 3, 4, 5, 6, 7, 8]
-print("pop(-1) element =", L3.pop(-1))                                  #pop(-1) element = 8
+
+print("pop(-1) element =", L3.pop(-2))                                  #pop(-1) element = 8
 print(L3)                                                               #[1, 3, 4, 5, 6, 7]
 
 #index
+
 print("index of 3=", L3.index(3))                                       #index of 3= 1
+
